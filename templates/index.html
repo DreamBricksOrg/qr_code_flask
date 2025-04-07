@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Códigos QR</title>
+    <style>
+        body { font-family: sans-serif; padding: 30px; max-width: 600px; margin: auto; }
+        input[type=number], button { font-size: 1.2rem; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Gerar Códigos com QR Code</h1>
+    <form method="POST">
+        <label for="quantidade">Quantidade de códigos:</label><br>
+        <input type="number" name="quantidade" min="1" required><br><br>
+        <button type="submit">Gerar e Baixar ZIP</button>
+    </form>
+</body>
+</html>
